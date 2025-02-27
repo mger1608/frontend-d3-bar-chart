@@ -1,0 +1,31 @@
+body, #root {
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.bar {
+  fill: #4da6ff;
+}
+
+.bar:hover {
+  fill: #666666;
+}
+
+svg {
+  background-color: #fafafa;
+}
+
+#tooltip {
+  position: absolute;
+  visibility: hidden;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  pointer-events: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
